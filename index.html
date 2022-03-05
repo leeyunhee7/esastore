@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/sidemenu.js"></script>
+    <title>이사가게</title>
+    <meta name="description" content="이사가게.">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/main_layout.css">
+    <link rel="stylesheet" href="css/main_reset.css">
+</head>
+    <script>
+        //로그인아이콘 리스트 열기
+        $(document).on("click", ".btn-open", function(e) {
+            var target = $(this).attr("href");
+            $(target).addClass("show");
+        });
+
+        // 외부영역 클릭 시 리스트닫기
+        $(document).mouseup(function(e) {
+            var LayerPopup = $(".info");
+            if (LayerPopup.has(e.target).length === 0) {
+                LayerPopup.removeClass("show");
+            }
+        });
+
+    </script>
+    
+ 
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1 class="logo"><a href="#-"><em class="hide">이사가게</em></a></h1>
+            <div class="gnb">
+                <ul>
+                    <li><a href="#-">가게소개</a>
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dd><a href="#-">이사가게소개</a></dd>
+                                    <dd><a href="#-">우수회원사</a></dd>
+                                    <dd><a href="#-">파트너 모집</a></dd>
+                                    <dd><a href="#-">오시는 길</a></dd>
+                                </dl>
+                                <dl>
+                                    <dd><a href="#-">포장/가정이사</a></dd>
+                                    <dd><a href="#-">셀프이사</a></dd>
+                                    <dd><a href="#-">당일이사</a></dd>
+                                    <dd><a href="#-">보관이사</a></dd>
+                                    
+                                </dl>
+                                <dl>
+                                    <dd><a href="#-">돈버는 TIP</a></dd>
+                                    <dd><a href="#-">화재방지</a></dd>
+                                    <dd><a href="#-">꼼꼼하게 이사하기</a></dd>
+                                    <dd><a href="#-">이사하기 좋은날</a></dd>
+                                </dl>
+                                <dl>
+                                    <dd><a href="#-">이사후기</a></dd>
+                                    <dd><a href="#-">공지 및 홍보</a></dd>
+                                    <dd><a href="#-">자주하는 질문</a></dd>
+                                    <dd><a href="#-">이벤트</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#-">맞춤형이사</a>
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dd><a href="#-">이사가게소개</a></dd>
+                                    <dd><a href="#-">우수회원사</a></dd>
+                                    <dd><a href="#-">파트너 모집</a></dd>
+                                    <dd><a href="#-">오시는 길</a></dd>
+                                </dl>
+                                <dl>
+                                    <dd><a href="#-">포장/가정이사</a></dd>
+                                    <dd><a href="#-">셀프이사</a></dd>
+                                    <dd><a href="#-">당일이사</a></dd>
+                                    <dd><a href="#-">보관이사</a></dd>
+                                    
+                                </dl>
+                                <dl>
+                                    <dd><a href="#-">돈버는 TIP</a></dd>
+                                    <dd><a href="#-">화재방지</a></dd>
+                                    <dd><a href="#-">꼼꼼하게 이사하기</a></dd>
+                                    <dd><a href="#-">이사하기 좋은날</a></dd>
+                                </dl>
+                                <dl>
+                                    <dd><a href="#-">이사후기</a></dd>
+                                    <dd><a href="#-">공지 및 홍보</a></dd>
+                                    <dd><a href="#-">자주하는 질문</a></dd>
+                                    <dd><a href="#-">이벤트</a></dd>
+                                </dl>
+                               
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#-">이사꿀팁</a>
+                        <ul>
+                            <li>
+                                <li>
+                                    <dl>
+                                        <dd><a href="#-">이사가게소개</a></dd>
+                                        <dd><a href="#-">우수회원사</a></dd>
+                                        <dd><a href="#-">파트너 모집</a></dd>
+                                        <dd><a href="#-">오시는 길</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dd><a href="#-">포장/가정이사</a></dd>
+                                        <dd><a href="#-">셀프이사</a></dd>
+                                        <dd><a href="#-">당일이사</a></dd>
+                                        <dd><a href="#-">보관이사</a></dd>
+                                        
+                                    </dl>
+                                    <dl>
+                                        <dd><a href="#-">돈버는 TIP</a></dd>
+                                        <dd><a href="#-">화재방지</a></dd>
+                                        <dd><a href="#-">꼼꼼하게 이사하기</a></dd>
+                                        <dd><a href="#-">이사하기 좋은날</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dd><a href="#-">이사후기</a></dd>
+                                        <dd><a href="#-">공지 및 홍보</a></dd>
+                                        <dd><a href="#-">자주하는 질문</a></dd>
+                                        <dd><a href="#-">이벤트</a></dd>
+                                    </dl>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#-">고객센터</a>
+                        <ul>
+                            <li>
+                                <li>
+                                    <dl>
+                                        <dd><a href="#-">이사가게소개</a></dd>
+                                        <dd><a href="#-">우수회원사</a></dd>
+                                        <dd><a href="#-">파트너 모집</a></dd>
+                                        <dd><a href="#-">오시는 길</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dd><a href="#-">포장/가정이사</a></dd>
+                                        <dd><a href="#-">셀프이사</a></dd>
+                                        <dd><a href="#-">당일이사</a></dd>
+                                        <dd><a href="#-">보관이사</a></dd>
+                                        
+                                    </dl>
+                                    <dl>
+                                        <dd><a href="#-">돈버는 TIP</a></dd>
+                                        <dd><a href="#-">화재방지</a></dd>
+                                        <dd><a href="#-">꼼꼼하게 이사하기</a></dd>
+                                        <dd><a href="#-">이사하기 좋은날</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dd><a href="#-">이사후기</a></dd>
+                                        <dd><a href="#-">공지 및 홍보</a></dd>
+                                        <dd><a href="#-">자주하는 질문</a></dd>
+                                        <dd><a href="#-">이벤트</a></dd>
+                                    </dl>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#-">무료견적</a>
+                        <ul>
+                            <li>
+                                <li>
+                                    <dl>
+                                        <dd><a href="#-">이사가게소개</a></dd>
+                                        <dd><a href="#-">우수회원사</a></dd>
+                                        <dd><a href="#-">파트너 모집</a></dd>
+                                        <dd><a href="#-">오시는 길</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dd><a href="#-">포장/가정이사</a></dd>
+                                        <dd><a href="#-">셀프이사</a></dd>
+                                        <dd><a href="#-">당일이사</a></dd>
+                                        <dd><a href="#-">보관이사</a></dd>
+                                        
+                                    </dl>
+                                    <dl>
+                                        <dd><a href="#-">돈버는 TIP</a></dd>
+                                        <dd><a href="#-">화재방지</a></dd>
+                                        <dd><a href="#-">꼼꼼하게 이사하기</a></dd>
+                                        <dd><a href="#-">이사하기 좋은날</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dd><a href="#-">이사후기</a></dd>
+                                        <dd><a href="#-">공지 및 홍보</a></dd>
+                                        <dd><a href="#-">자주하는 질문</a></dd>
+                                        <dd><a href="#-">이벤트</a></dd>
+                                    </dl>
+                                   
+                            </li>
+                        </ul>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="m_header">
+            <div class="navi">
+                <h1 class="m_logo"><a href="#-"><em class="hide">이사가게</em></a></h1>
+                <div class="ham_menu hamburger " id="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <!-- hamburger script-->
+                <script>
+                    $(document).ready(function() {
+                        $(".hamburger").click(function() {
+                            $(this).toggleClass("is-active");
+                        });
+                    });
+
+                </script>
+                <nav>
+                    <ul>
+                        <li class="tit">가게소개</li>
+                        <li><a href="#-">이사가게 소개</a></li>
+                        <li><a href="#-">우수회원사</a></li>
+                        <li><a href="#-">파트너모집</a></li>
+                        <li class="mb"><a href="#-">오시는 길</a></li>
+                        <li class="tit">이사꿀팁</li>
+                        <li><a href="#-">돈버는 Tip</a></li>
+                        <li><a href="#-">피해방지</a></li>
+                        <li><a href="#-">꼼꼼하게 이사하기</a></li>
+                        <li class="mb"><a href="#-">이사하기 좋은날</a></li>
+                        <li class="tit">맞춤형이사</li>
+                        <li><a href="#-">포장이사</a></li>
+                        <li><a href="#-">원룸이사</a></li>
+                        <li><a href="#-">셀프이사</a></li>
+                        <li><a href="#-">당일이사</a></li>
+                        <li class="mb"><a href="#-">보관이사</a></li>
+                        <li class="tit">고객센터</li>
+                        <li><a href="#-">이사후기</a></li>
+                        <li><a href="#-">공지 및 홍보</a></li>
+                        <li><a href="#-">자주하는 질문</a></li>
+                        <li><a href="#-">공지사항</a></li>
+                        <li class="mb"><a href="#-">이벤트</a></li>
+                        <li class="tit">무료견적신청</li>
+                    </ul>
+                </nav>
+                <!-- sidemenu script-->
+                <script>
+                    $(document).ready(function() {
+                        $('.ham_menu').click(function() {
+                            $('nav').toggleClass('active')
+                        })
+                    })
+
+                </script>
+            </div>
+        </div>
+        <!--change color bar mobile_tablet-->
+        <script>
+            $(function() {
+                var rollHeader = 100;
+                $(window).scroll(function() {
+                    var scroll = getCurrentScroll();
+                    if (scroll >= rollHeader) {
+                        $('.m_header').addClass('roll');
+                    } else {
+                        $('.m_header').removeClass('roll');
+                    }
+                });
+
+                function getCurrentScroll() {
+                    return window.pageYOffset || document.documentElement.scrollTop;
+                }
+            });
+
+        </script>
+
+        <div class="visual_box visualimg">
+          <div class="inner_1280">
+             
+            <div class="key_txt">직접 이사하는<br>사람들이 함께하는<br><span class="font_100">이사가게</span><br><span class="font_28">전국 소상공인이 모여 최저가의 이사비용으로
+                맞춤형 이사서비스를 제공합니다.</span></div>
+            
+            </div>
+        </div>
+        </div>
+        <div class="visual_box1" style="display:none">
+            <div class="key_txt">직접 이사하는<br>사람들이 함께하는<br><span class="font_100">이사가게</span><br><span class="font_28">전국 소상공인이 모여 최저가의 이사비용으로
+                맞춤형 이사서비스를 제공합니다.</span></div>
+            
+           
+        </div>
+        <div class="visual_box2" style="display:none">
+            <div class="key_txt">직접 이사하는<br>사람들이 함께하는<br><span class="font_100">이사가게</span><br><span class="font_28">전국 소상공인이 모여 최저가의 이사비용으로
+                맞춤형 이사서비스를 제공합니다.</span></div>
+            
+           
+        </div>
+        <div class="estimate_box">
+           <div class="inner_1280f">
+                <div class="estimate_lt"><h2>무료 간편 견적문의</h2><br><i>입력 정보에 따라 맞춤형 서비스 지점을 연결해 드립니다.</i>
+                    <div class="radiobox">
+                        <ul>
+                            <li><input class="radiobx" type="radio" id="way1" name="radio-group">
+                                <label for="way1">기타</label>
+                            </li>
+                            <li> <input class="radiobx" type="radio" id="way2" name="radio-group">
+                                <label for="way2">원룸이사</label>
+                            </li>
+                            <li><input class="radiobx" type="radio" id="way3" name="radio-group">
+                                <label for="way3">가정이사</label>
+                            </li>
+                            <li> <input class="radiobx" type="radio" id="way4" name="radio-group">
+                                <label for="way4">사무실 이사</label>
+                            </li>
+                            <li><input class="radiobx" type="radio" id="way5" name="radio-group">
+                                <label for="way5">용달이사</label>
+                            </li>
+                            <li> <input class="radiobx" type="radio" id="way6" name="radio-group">
+                                <label for="way6">보관이사</label>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <div class="info_list">
+                         <div class="list_bx"><span class="tit"> 고객명</span><span class="inputbx"><input type="text" name="" value=""  placeholder=""></span> <span class="tit1">연락처</span> <span class="inputbx"><input type="text" name="" value="" class="etc" placeholder=""></span></div>
+                        <div class="list_bx1"><span class="tit">서비스 날짜</span> <span class="inputbx"><input type="text" name="" value=""  placeholder=""></span></div>
+                        <div class="list_bx1"><span class="tit">출발지</span> <span class="inputbx"><input type="text" name="" value=""  placeholder=""></span></div>
+                        <div class="list_bx1"><span class="tit">도착지</span> <span class="inputbx"><input type="text" name="" value=""  placeholder=""></span></div>
+                        <div class="list_bx2"><span class="inputbx"><input class="checkbx" type="checkbox" id="privacy" name="">  <label for="privacy">개인정보 수집 이용 동의</label></span></div>
+                       
+                    </div>
+                    <div class="btnbx"><button type="submit" class="free_btn">무료 견적신청</button></div>
+                </div>
+                
+                <div class="estimate_rt">
+                    <div class="estimate_data">
+                        <div class="tit">누적데이터<i class="date">2022.02.16</i></div>
+                       
+                        <div class="cont1">
+                            <div>간편견적서비스<br><i>22,790</i> 건</div>
+                            <div>이사가게 총 방문수<br><i>103,425 </i> 건</div>
+                        </div>
+                      
+                        <div class="cont2">이사가게 총 누적액<br><i>3,455,805</i> 원</div>
+
+                    </div>
+                    <div class="estimate_list">
+                        <div class="tit">실시간 견적</div>
+                        
+                            <table>
+                               
+                                
+                                  <tr>
+                                    <td class="date_time">2020.02.16 08:01</td>
+                                    <td class="esaway"><i class="cl">사무실이사</i></td>
+                                    <td class="name">임<i>**</i></td>
+                                    <td class="local"><span>세종</span><i>-></i><span>경북</span></td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <td class="date_time">2020.02.16 08:01</td>
+                                    <td class="esaway"><i class="cl">원룸이사</i></td>
+                                    <td class="name">임<i>**</i></td>
+                                    <td class="local"><span>세종</span><i>-></i><span>세종</span></td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <td class="date_time">2020.02.16 08:01</td>
+                                    <td class="esaway"><i class="cl">원룸이사</i></td>
+                                    <td class="name">임<i>**</i></td>
+                                    <td class="local"><span>세종</span><i>-></i><span>세종</span></td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <td class="date_time">2020.02.16 08:01</td>
+                                    <td class="esaway"><i class="cl">원룸이사</i></td>
+                                    <td class="name">임<i>**</i></td>
+                                    <td class="local"><span>세종</span><i>-></i><span>세종</span></td>
+                                   
+                                  </tr>
+                                  <tr>
+                                    <td class="date_time">2020.02.16 08:01</td>
+                                    <td class="esaway"><i class="cl">원룸이사</i></td>
+                                    <td class="name">임<i>**</i></td>
+                                    <td class="local"><span>세종</span><i>-></i><span>세종</span></td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <td class="date_time">2020.02.16 08:01</td>
+                                    <td class="esaway"><i class="cl">원룸이사</i></td>
+                                    <td class="name">임<i>**</i></td>
+                                    <td class="local"><span>세종</span><i>-></i><span>세종</span></td>
+                                   
+                                  </tr>
+                                </tbody>
+                                </table>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="choice_box ">
+            <div class="tit"><h2>많은 분들이 이사가게를 <br>선택하는 이유!</h2></div>
+            <div class="cont">
+           
+                
+            <div><img src="images/choiceimg1x2.png"><br><span>15만 회원<br><i>15만 회원들이 함께하는<br>
+                진짜 이사하는 사람들이 모인 공간.</i></span></div>
+            <div><img src="images/choiceimg2x2.png"><br><span>최저가 이사비용<br><i>불필요한 이사비용 0%<br>
+                전국 최저가 이사비용</i></span></div>
+            <div><img src="images/choiceimg3x2.png"><br><span>맞춤이사 컨설팅<br><i>기존의 이사방법과 차별화된<br>
+                맞춤이사 컨설팅</i></span></div>
+            <div><img src="images/choiceimg4x2.png"><br><span>비교선택<br><i>무료 방문견적을 통한<br>
+                우수업체 비교선택</i></span></div>
+            </div>
+        </div>
+
+        <div class="dc_box">
+            <div class="inner_1280f">
+                <div class="txt_img">
+                    <span>부르는게 값인<br><i>이사비용</i> <i class="b_txt">NO</i><br> <i class="s_txt">이사가게와 타업체 비교 20% DOWN!</i></span>
+                </div>
+            </div>
+        </div>
+        <div class="calenda_faq_box ">        
+            <div class="calenda">
+                <div class="tit"><span>2022.02</span><br><i>손 없는 날</i></div>
+                <div class="list">
+                    <ul class="date">
+                        <li>MON</li>
+                        <li>TUE</li>
+                        <li>WED</li>
+                        <li>THU</li>
+                        <li>FRI</li>
+                        <li>SAT</li>
+                        <li class="rcl">SUN</li>
+                     </ul>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li><span>4</span></li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li class="rcl">7</li>
+                     </ul>
+                     <ul>
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li class="rcl">15</li>
+                     </ul>
+                     <ul>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li><span>19</span></li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li class="rcl">22</li>
+                     </ul>
+                     <ul>
+                        <li>23</li>
+                        <li><span>24</span></li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li>28</li>
+                        <li class="rcl">29</li>
+                     </ul>
+                     <ul>
+                        <li>30</li>
+                        <li>31</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                     </ul>
+                </div>  
+                
+            </div>
+            <div class="faq">
+                <div class="tit">자주하는 질문</div>
+                <div class="list">
+                    <ul>
+                        <li><a href="">손 없는 날은 어떤 날인가요?</a></li>
+                        <li><a href="">이사 시 방문 견적은 왜 필요한가요?</a></li>
+                        <li><a href="">상담 신청 시 개인정보가 공개되는 건가요?</a></li>
+                        <li><a href="">이사가게는 왜 저렴한가요?</a></li>
+                        <li><a href="">당일 현장에서 추가 요금이 발생할 수 있나요?</a></li>
+                     </ul>
+                     <button type="button" class="go_btn"><span class="go">바로가기</span></button>
+                </div>
+                
+            </div>
+          
+        </div>
+       
+        <div class="process_box">
+            <div class="inner_1280">
+                <div class="tit"><h2>이사가게 이사순서</h2></div>
+                <div class="cont">
+                    <div><img src="images/process1x2.png"><br><span>견적신청</span></div>
+                    <div class="nos"><img src="images/arrow_img.png"></div>
+                    <div><img src="images/process2x2.png"><br><span>무료컨설팅</span></div>
+                    <div class="nos"><img src="images/arrow_img.png"></div>
+                    <div><img src="images/process3x2.png"><br><span>우수업체연결</span></div>
+                    <div class="nos"><img src="images/arrow_img.png"></div>
+                    <div><img src="images/process4x2.png"><br><span>무료방문견적</span></div>
+                    <div class="nos"><img src="images/arrow_img.png"></div>
+                    <div><img src="images/process5x2.png"><span class="last">이사진행</span></div>
+                </div>
+                </div>
+       
+        </div>
+        <div class="tip_box">
+            <div class="inner_1280">
+            <div class="tit">
+                <span><em>이사 $ 생활꿀팁</em><br><i>이사가게<br>추천</i><i class="b_txt">TIP</i></span>
+                <button type="button" class="go_btn"><em class="go">바로가기</em></button>
+            </div>
+            
+
+        </div>
+        </div>
+
+        
+     
+        <div class="footer">
+            <div class="inner_1280f">
+                <div class="f_logo"><a href=""><i class="hide">이사가게</i></a></div>
+                <div class="privacy">
+                    <ul>
+                        <li><a href="#-">개인정보처리방침</a></li>
+                        <li><a href="#-">이용약관</a></li>
+                     </ul>
+                    <div class="address">삼천리네트웍스 이사가게 &nbsp;&nbsp;대표: 임진혁 &nbsp;&nbsp;서울시 강서구 마곡중앙6로 40 JH장흥빌딩 &nbsp;&nbsp;사업자번호: 109-86-51514<br>
+                        팩스: 02-2662-8187 &nbsp;&nbsp;고객센터: 1855-3002 &nbsp;&nbsp;제휴문의: dkson2020@gmail.com &nbsp;&nbsp;개인정보관리자: 임동혁<br>
+                        <span class="contract">계약안내: 고객님께서 완료하신 계약은 고객님과 해당업체와의 계약입니다. 발생되는 모든 책임은 해당 업체에 있습니다. 
+                            <br>서비스분쟁조정기관: 한국소비자보호원</span>
+                
+                        <span class="copyright">Copyright 2018, Esastore All Rights Reserved. </span>
+                    </div>
+                </div>
+               
+                    
+                <div class="sns"><a href="" class="sns1"><em class="hide">facebook</em></a><a href="" class="sns2"><em class="hide">instargram</em></a><a href="" class="sns3"><em class="hide">네이버톡</em></a><a href="" class="sns4"><em class="hide">카카오톡</em></a></div>
+                    
+            </div>
+        </div>
+    </div>
+
+    <!--slick slider-->
+    <script>
+        $(function() {
+            $('#slider-div').slick({
+                slide: 'div', //슬라이드 되어야 할 태그 ex) div, li 
+                infinite: true, //무한 반복 옵션	 
+                slidesToShow: 1, // 한 화면에 보여질 컨텐츠 개수
+                slidesToScroll: 1, //스크롤 한번에 움직일 컨텐츠 개수
+                speed: 100, // 다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간(ms)
+                arrows: true, // 옆으로 이동하는 화살표 표시 여부
+                dots: true, // 스크롤바 아래 점으로 페이지네이션 여부
+                autoplay: true, // 자동 스크롤 사용 여부
+                autoplaySpeed: 10000, // 자동 스크롤 시 다음으로 넘어가는데 걸리는 시간 (ms)
+                pauseOnHover: true, // 슬라이드 이동	시 마우스 호버하면 슬라이더 멈추게 설정
+                vertical: false, // 세로 방향 슬라이드 옵션
+                prevArrow: "<button type='button' class='slick-prev'>Previous</button>", // 이전 화살표 모양 설정
+                nextArrow: "<button type='button' class='slick-next'>Next</button>", // 다음 화살표 모양 설정
+                dotsClass: "slick-dots", //아래 나오는 페이지네이션(점) css class 지정
+                draggable: true, //드래그 가능 여부 
+
+                responsive: [ // 반응형 웹 구현 옵션
+                    {
+                        breakpoint: 1280, //화면 사이즈 1240px
+                        settings: {
+                            //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 280, //화면 사이즈 768px
+                        settings: {
+                            //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+
+            });
+        })
+
+    </script>
+</body>
+
+</html>
