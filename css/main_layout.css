@@ -314,7 +314,7 @@ nav > ul > li > a{display:block;height:34px;}
     .floatbtn button{color:#ffffff;font-size:1rem;}
     .floatbtn .phonecall{width:40%;background:#2E6FF2;}
     .floatbtn .free{width:40%;background:#54ACBF;}
-    .floatbtn .kakaotalk{width:20%;background:url(../images/kakaotalk.png) no-repeat center #FBEB5E;background-size:50% auto;}
+    .floatbtn .kakaotalk{width:20%;background:url(../images/kakaotalk.png) no-repeat center #FBEB5E;background-size:41px auto;}
     .visual_box{display:none;}
     .estimate_box{background:#0528F2;}
     .estimate_box .estimate_lt{width:100%;color:#ffffff;justify-content: start;padding:126px 20px 60px}
