@@ -9,6 +9,7 @@
 .go_btn .go:after{content: '';width: 39px;height: 10px;background:url(../images/go_arrow.png) no-repeat 10px center;display: inline-block;background-size:25px auto;}
 .btnbx{display:flex;margin-top:23px;}
 .btnbx .free_btn{margin-left:auto;width:290px;height:60px;background:#F27D16;color:#ffffff;font-size:1.375rem;border-radius:16px;}
+
 .estimate_box .estimate_lt h2{font-size: 1.625rem;}
 .estimate_box .estimate_lt .radiobox{padding-top:50px;}
 .estimate_box .estimate_lt .radiobox ul li{display:inline-block;padding-bottom:10px;padding-right:10px;}
@@ -58,7 +59,7 @@
 .choice_box .cont div i{font-size:0.875rem;display:block;padding-top:10px;color:#999999;line-height:1.2;}
 .choice_box .tit h2 br{display:none}
 
-.calenda_faq_box .calenda .tit{width:100%;padding:30px 0 20px;border-bottom:1px solid #333333;line-height:1.4}
+.calenda_faq_box .calenda .tit{width:100%;padding:10px 0 20px;border-bottom:1px solid #333333;line-height:1.4}
 .calenda_faq_box .calenda .tit span{position:relative;color:#333333;font-size:3.688rem;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;}
 .calenda_faq_box .calenda .tit span:after{
     content: '';
@@ -86,9 +87,10 @@
     transform: rotate(45deg);}
 
 .calenda_faq_box .calenda .tit i{color:#111111;font-size:1.5rem;}
-.calenda_faq_box .calenda .list{width:100%;padding-top:10px;}
-
+.calenda_faq_box .calenda .list{position:relative;width:100%;padding-top:10px;}
 .calenda_faq_box .calenda .list ul.date li{font-size:0.75rem;}
+
+.mtno.go_btn{position:absolute;left:50%;margin-top:0px;}
 
 .rcl{color:#F30442}
 .calenda_faq_box .calenda .list ul li span{display:block;background:#0528F2; width:34px;height:34px;line-height:34px;border-radius: 17px;color:#ffffff;}
@@ -97,7 +99,8 @@
 .calenda_faq_box .faq .tit{width:30%;border-top-left-radius: 16px; border-bottom-left-radius: 16px;padding:60px 0 0 15px;background:url(../images/faqimg.png) no-repeat 90% 70% #CAAEFE}
 
 .dc_box{background:#F8F8F8;margin-top:100px;}
-.dc_box .txt_img{width:100%;height:355px;background:url(../images/alarm2x.png) no-repeat 90% 40px;line-height:1.2;background-size:40% auto}
+.dc_box .txt_img{width:100%;height:355px;background:url(../images/alarm2x.png) no-repeat right center;line-height:1.2;background-size:40% auto}
+
 .dc_box .txt_img span{display:block;font-size:1.875rem;padding-top:70px;padding-left:80px}
 .dc_box .txt_img span i{font-size:2rem;font-weight:bold}
 .dc_box .txt_img span i.b_txt{font-size:2.5rem;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; color:#2E6FF2;}
@@ -141,6 +144,7 @@
     
 .header{max-width:1280px;margin:0 auto;height:90px;display:flex;}
 .m_header{display:none;}
+.floatbtn{display:none;}
 .header h1.logo{padding:20px 0 0 20px;}
 .header h1.logo a{display:block;width: 201px;height: 54px;background: url(../images/logo.png) no-repeat 0 ;background-size:201px auto;}
 .header .m_gnb{display:none;}
@@ -214,6 +218,8 @@
 .calenda_faq_box .faq .list li{line-height:50px;}
 .calenda_faq_box .faq .tit{font-size:1.625rem;}
 
+
+
 .process_box{margin:100px auto 0;}
 .process_box .cont{display:flex;justify-content: center;justify-content: space-around;}
 .process_box .cont div{padding:40px 10px 40px;text-align:center;font-size:1rem;}
@@ -265,28 +271,32 @@ nav > ul > li > a{display:block;height:34px;}
 
 /*tablet 768~960*/
 @media all and (min-width:768px) and (max-width:1000px) { 
-.header .gnb{display:none;}
-
+    .header .gnb{display:none;}
+    .floatbtn{display:none;}
     .estimate_box{background:#0528F2;}
     .estimate_box .estimate_lt{width:100%;color:#ffffff;justify-content: start;padding:126px 20px 60px}
     .list_bx span.tit1{padding-left:2%;width:17%;justify-content: space-between;padding-top:17px;}
     .estimate_box .estimate_rt{width:100%;color:#333333;justify-content: end;background:#f0f6ff;padding:40px 20px}
     .estimate_data div i{display:inline-block;font-size:1.375rem;padding-top:10px;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; color:#54ACBF;letter-spacing:-1.5px}
     .estimate_list table td{padding:10px 0px;font-size:0.75rem;}
-    .calenda_faq_box {margin-top:50px;}
+    .calenda_faq_box {margin-top:80px;}
     .calenda_faq_box .calenda{width:100%;padding:0 20px; text-align:center;}
-    .calenda_faq_box .faq{display:flex;width:100%;height:100%;margin-top:60px;}
+    .calenda_faq_box .faq{display:flex;width:100%;height:100%;margin-top:100px;}
     .calenda_faq_box .calenda .list ul li{display:inline-block;width:28px;height:35px;line-height:45px;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:0.875rem;}
     .calenda_faq_box .faq .list li{line-height:30px;}
     .calenda_faq_box .faq .tit{font-size:1.875rem;}
 
-    .process_box{margin-top:60px;}
+
+    .dc_box .txt_img{background:url(../images/alarm2x.png) no-repeat right center;line-height:1.2;background-size:50% auto}
+
+
+    .process_box{margin-top:80px;}
     .process_box .cont{display:flex;justify-content: center;justify-content: space-around;padding-bottom:60px;}
     .process_box .cont img{width:80%}
     .process_box .cont .nos img{width:100%;padding-top:20px;}
     .process_box .tit h2{padding:60px 0;font-size: 1.625rem;text-align:center;font-weight:bold;}
 
-    .choice_box .tit h2{padding-top:100px;}
+    .choice_box .tit h2{padding-top:80px;}
 
     /*footer*/
     .inner_1280f{display:flex;margin:0 auto; max-width:1000x;}
@@ -300,7 +310,12 @@ nav > ul > li > a{display:block;height:34px;}
 /*mobile 280,360~767*/
 @media all and (max-width:767px) {
     .header .gnb{display:none;}
-.visual_box{display:none;}
+    .floatbtn{z-index:9999;display:block;position:fixed;bottom:0;width:100%;display:flex;height:60px;}
+    .floatbtn button{color:#ffffff;font-size:1rem;}
+    .floatbtn .phonecall{width:40%;background:#2E6FF2;}
+    .floatbtn .free{width:40%;background:#54ACBF;}
+    .floatbtn .kakaotalk{width:20%;background:url(../images/kakaotalk.png) no-repeat center #FBEB5E;background-size:50% auto;}
+    .visual_box{display:none;}
     .estimate_box{background:#0528F2;}
     .estimate_box .estimate_lt{width:100%;color:#ffffff;justify-content: start;padding:126px 20px 60px}
     .list_bx span.tit1{padding-left:2%;width:17%;justify-content: space-between;padding-top:17px;}
@@ -308,7 +323,7 @@ nav > ul > li > a{display:block;height:34px;}
     .estimate_data div i{display:inline-block;font-size:1.375rem;padding-top:10px;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; color:#54ACBF;letter-spacing:-1.5px}
     .estimate_list table td{padding:10px 0px;font-size:0.75rem;}
     .calenda_faq_box {margin-top:50px;}
-    .calenda_faq_box .calenda{width:100%;padding:0 20px; text-align:center;}
+    .calenda_faq_box .calenda{width:100%;padding:20px 0 40px 0; text-align:center;}
     .calenda_faq_box .faq{display:flex;width:100%;height:100%;margin-top:60px;}
     .calenda_faq_box .calenda .list ul li{display:inline-block;width:28px;height:35px;line-height:45px;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:0.875rem;}
     .calenda_faq_box .calenda .tit span{font-size:2.3rem;}
@@ -339,11 +354,7 @@ nav > ul > li > a{display:block;height:34px;}
     .calenda_faq_box .faq .list li{line-height:30px;}
     .calenda_faq_box .faq .tit{font-size:1.235rem;background:url(../images/faqimg.png) no-repeat 90% 70% #CAAEFE;background-size:70%;}
     
- 
     .choice_box .tit h2{padding-top:100px;}
-
-
-
 
 
     .dc_box .txt_img{width:100%;height:500px;background:url(../images/alarm2x.png) no-repeat 50% 92% ;line-height:1.2;background-size:300px auto;}
@@ -359,7 +370,7 @@ nav > ul > li > a{display:block;height:34px;}
 .choice_box .cont div i{font-size:0.875rem;display:block;padding-top:10px;color:#999999;line-height:1.2;}
 
 
-.process_box .tit h2{padding:60px 0 20px;font-size: 1.625rem;text-align:center;font-weight:bold;}
+.process_box .tit h2{padding:70px 0 20px;font-size: 1.625rem;text-align:center;font-weight:bold;}
 .process_box .cont div{padding:40px 10px 20px;text-align:center;font-size:1rem;}
 .process_box .cont span.last:after{display:none;}
 .process_box .cont img{width:143px}
@@ -380,7 +391,7 @@ position:absolute;
 
 
 
-.calenda_faq_box {margin-top:30px;}
+
 .tip_box .tit{padding:0px 0 0 20px;}
 .choice_box .tit h2 br{display:block}
 
