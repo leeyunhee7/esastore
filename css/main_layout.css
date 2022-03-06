@@ -56,6 +56,8 @@
 .list_bx span.inputbx{width:30%;justify-content: space-between;}
 .list_bx1{display:flex; width:100%;padding-top:20px;}
 .list_bx1 span.tit{width:20%;justify-content: start;padding-top:17px}
+.list_bx1 span.tit.line2 br{display:none;}
+
 .list_bx1 span.inputbx{width:80%;}
 .list_bx2{ width:100%;padding-top:20px;}
 .list_bx2 span.inputbx{padding-top:17px;padding-left:20%;}
@@ -117,7 +119,7 @@
 .calenda_faq_box .calenda .list ul li span{display:block;background:#0528F2; width:34px;height:34px;line-height:34px;border-radius: 17px;color:#ffffff;}
 .calenda_faq_box .faq .list{width:70%;background:#f8f8f8;padding:50px;border-top-right-radius: 16px; border-bottom-right-radius: 16px;}
 .calenda_faq_box .faq .list li{border-bottom:1px solid #d9d9d9;}
-.calenda_faq_box .faq .tit{width:30%;border-top-left-radius: 16px; border-bottom-left-radius: 16px;padding:60px 0 0 15px;background:url(../images/faqimg.png) no-repeat 90% 70% #CAAEFE}
+.calenda_faq_box .faq .tit{width:30%;border-top-left-radius: 16px;padding: 60px 0 0 15px; background:url(../images/faqimg.png) no-repeat 90% 70% #CAAEFE}
 
 .dc_box{background:#F8F8F8;margin-top:100px;}
 .dc_box .txt_img{width:100%;height:355px;background:url(../images/alarm2x.png) no-repeat right center;line-height:1.2;background-size:40% auto}
@@ -252,9 +254,7 @@
 .calenda_faq_box .calenda .list ul li{display:inline-block;width:35px;height:35px;line-height:45px;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:0.875rem;}
 .calenda_faq_box .faq{display:flex;width:60%;height:450px;}
 .calenda_faq_box .faq .list li{line-height:50px;}
-.calenda_faq_box .faq .tit{font-size:1.625rem;}
-
-
+.calenda_faq_box .faq .tit{font-size:1.625rem;border-top-left-radius: 16px; border-bottom-left-radius: 16px;}
 
 .process_box{margin:100px auto 0;}
 .process_box .cont{display:flex;justify-content: center;justify-content: space-around;}
@@ -299,7 +299,7 @@ nav {position: absolute;width: 100%;height: calc(100vh - 66px);background: #fff;
 nav > ul > li{height:35px;line-height:35px;text-indent: 0px;}
 nav > ul > li.mb{margin-bottom:20px;}
 nav > ul > li.tit{background:#f1f1f1;}
-nav > ul > li.tit1{background:#f1f1f1;padding-bottom:100px}
+nav > ul > li.tit1{background:#f1f1f1;margin-bottom:100px}
 nav > ul > li > a{display:block;height:34px;}
 
 /*tablet 768~960*/
@@ -322,6 +322,7 @@ nav > ul > li > a{display:block;height:34px;}
     .visual_box .slidebox .key_txt1 span.font_70{font-size:4.25rem;}
     .visual_box .slidebox .key_txt1 .freetxtbtn{display:block;width:360px;border:1px solid #ffffff;margin-top:50px;color:#ffffff;height:60px;font-size:1.5rem;}
     
+
     .estimate_box{background:#0528F2;}
     .estimate_box .estimate_lt{width:100%;color:#ffffff;justify-content: start;padding:126px 20px 60px}
     .list_bx span.tit1{padding-left:2%;width:17%;justify-content: space-between;padding-top:17px;}
@@ -333,7 +334,7 @@ nav > ul > li > a{display:block;height:34px;}
     .calenda_faq_box .faq{display:flex;width:100%;height:100%;margin-top:100px;}
     .calenda_faq_box .calenda .list ul li{display:inline-block;width:28px;height:35px;line-height:45px;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:0.875rem;}
     .calenda_faq_box .faq .list li{line-height:30px;}
-    .calenda_faq_box .faq .tit{font-size:1.875rem;}
+    .calenda_faq_box .faq .tit{font-size:1.875rem;border-top-left-radius: 16px; border-bottom-left-radius: 16px;}
 
     .dc_box .txt_img{background:url(../images/alarm2x.png) no-repeat right center;line-height:1.2;background-size:50% auto}
 
@@ -378,6 +379,9 @@ nav > ul > li > a{display:block;height:34px;}
     .visual_box .slidebox .key_txt1 span.font_70{font-size:2rem;}
     .visual_box .slidebox .key_txt1 em{font-size:3rem;}
 
+    .list_bx1 span.tit.line2 {padding-top:12px}
+    .list_bx1 span.tit.line2 br{display:block;}
+
     .estimate_box{background:#0528F2;}
     .estimate_box .estimate_lt{width:100%;color:#ffffff;justify-content: start;padding:60px 20px 60px}
     .list_bx span.tit1{padding-left:2%;width:17%;justify-content: space-between;padding-top:17px;}
@@ -414,7 +418,7 @@ nav > ul > li > a{display:block;height:34px;}
         display: inline-block;
         transform: rotate(45deg);}
     .calenda_faq_box .faq .list li{line-height:30px;}
-    .calenda_faq_box .faq .tit{font-size:1.235rem;background:url(../images/faqimg.png) no-repeat 90% 70% #CAAEFE;background-size:70%;}
+    .calenda_faq_box .faq .tit{font-size:1.235rem;border-top-left-radius: 0px; border-bottom-left-radius: 0px;background:url(../images/faqimg.png) no-repeat 90% 70% #CAAEFE;background-size:70%;}
     
     .choice_box .tit h2{padding-top:100px;}
 
@@ -429,7 +433,8 @@ nav > ul > li > a{display:block;height:34px;}
     .choice_box .cont div{padding: 40px 5px 0px;text-align:center;font-size:1.375rem;}
     .choice_box .cont div span{padding:20px 0 0px;display:block;}
     .choice_box .cont div i{font-size:0.875rem;display:block;padding-top:10px;color:#999999;line-height:1.2;}
-
+    
+    .process_box{margin-top:60px;}
     .process_box .tit h2{padding:70px 0 20px;font-size: 1.625rem;text-align:center;font-weight:bold;}
     .process_box .cont div{padding:40px 10px 20px;text-align:center;font-size:1rem;}
     .process_box .cont span.last:after{display:none;}
