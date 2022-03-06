@@ -217,10 +217,10 @@
     }
 }
 
-.header .gnb > ul > li > ul > li{display:flex;justify-content: end;margin-left:23%;overflow:hidden;color:#333;}
+.header .gnb > ul > li > ul > li{display:flex;justify-content: end;color:#333;}
 .header .gnb > ul > li > ul > li > dl{width:140px;padding:20px 0 ;font-size:1rem;}
 .header .gnb > ul > li > ul > li > dl:first-child{width:135px;}
-.header .gnb > ul > li > ul > li > dl > dd{line-height:2}
+.header .gnb > ul > li > ul > li > dl > dd{line-height:2;}
 .header .gnb > ul > li > ul > li > dl > dd:hover{color:#54ACBF}
 
 .visual_box{padding-top:90px;background:#cccccc;}
