@@ -392,8 +392,8 @@ nav > ul > li > a{display:block;height:34px;}
     .estimate_box .estimate_lt{width:100%;color:#ffffff;justify-content: start;padding:60px 20px 60px}
     .list_bx span.tit1{padding-left:2%;width:17%;justify-content: space-between;padding-top:17px;}
     .estimate_box .estimate_rt{width:100%;color:#333333;justify-content: end;background:#f0f6ff;padding:40px 20px}
-    .estimate_data div i{display:inline-block;font-size:1.375rem;padding-top:10px;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; color:#54ACBF;letter-spacing:-1.5px}
-    .estimate_list table td{padding:10px 0px;font-size:0.75rem;}
+    .estimate_data div i{display:inline-block;font-size:2rem;padding-top:10px;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; color:#54ACBF;letter-spacing:-1.5px}
+    .estimate_list table td{padding:10px 0px;font-size:1rem;}
     .calenda_faq_box {margin-top:50px;}
     .calenda_faq_box .calenda{width:100%;padding:20px 0 40px 0; text-align:center;}
     .calenda_faq_box .faq{display:flex;width:100%;height:100%;margin-top:60px;}
