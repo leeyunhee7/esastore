@@ -16,18 +16,9 @@
 .slick-dots button {display: block;height: .5rem;padding: 0;border: none;border-radius: 10px; border:1px solid rgba(255,255,255, 0.3);background:rgba(255,255,255, 0.1); text-indent: -9999px;cursor: pointer;}
 .slick-dots li.slick-active button {background-color: rgba(255,255,255, 0.5);  border:none;}   
 
-
-
-
-
-
 .slidebox1 .slick-dots {transform:translateX(-50%);left:50%;position:absolute;margin: 0;padding: 1rem 0;    list-style-type: none;  bottom: -50px;}
 .slidebox1 .slick-dots button {display: block;height: .5rem;padding: 0;border: none;border-radius: 10px; background:rgba(5, 90, 139, 0.2); text-indent: -9999px;cursor: pointer;}
 .slidebox1 .slick-dots li.slick-active button {background-color: rgba(13, 95, 219, 0.5);  border:none;} 
-
-
-
-
 
 .slick-prev,.slick-next {font-size: 0;position: absolute;width:50px;height:100px;bottom: 20px;color: #fff;border:0;background: none;z-index:9999;top: 230px;cursor: pointer;}
 .slick-prev {left: -5px;text-align:right;}
@@ -469,7 +460,7 @@ nav > ul > li > a{display:block;height:34px;}
         transform: rotate(135deg);}
 
     .tip_box{margin:60px 0;}
-    .tip_box .tit{width:100%;padding:0 0 50px 20px;}
+    .tip_box .tit{width:100%;padding:0 0 50px 30%;}
     .tip_box .slidebox1{width:100%;padding:0px 30px 0;}
     .choice_box .tit h2 br{display:block}
 
