@@ -20,7 +20,7 @@
 .slidebox1 .slick-dots button {display: block;height: .5rem;padding: 0;border: none;border-radius: 10px; background:rgba(5, 90, 139, 0.2); text-indent: -9999px;cursor: pointer;}
 .slidebox1 .slick-dots li.slick-active button {background-color: rgba(13, 95, 219, 0.5);  border:none;} 
 
-.slick-prev,.slick-next {font-size: 0;position: absolute;width:50px;bottom: 20px;color: #fff;border:0;background: none;z-index:9999;top: 20px;cursor: pointer;}
+.slick-prev,.slick-next {font-size: 0;position: absolute;width:50px;height:100px;bottom: 20px;color: #fff;border:0;background: none;z-index:9999;top: 230px;cursor: pointer;}
 .slick-prev {left: -5px;text-align:right;}
 .slick-prev:after {content: '';
     width: 20px; /* 사이즈 */
