@@ -427,7 +427,7 @@ nav > ul > li > a{display:block;height:34px;}
     
     .choice_box .tit h2{padding-top:100px;}
 
-    .dc_box .txt_img{width:100%;height:500px;background:url(../images/alarm2x.png) no-repeat 50% 92% ;line-height:1.2;background-size:300px auto;}
+    .dc_box .txt_img{width:100%;height:552px;background:url(../images/alarm2x_m.png) no-repeat 50% 75% ;line-height:1.2;background-size:300px auto;}
     .dc_box .txt_img span{display:block;font-size:1.875rem;padding-top:70px;padding-left:80px}
     .dc_box .txt_img span i{font-size:2rem;font-weight:bold}
     .dc_box .txt_img span i.b_txt{font-size:2.5rem;font-weight:bold;font-family:'montserrat','NotoSansKR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; color:#2E6FF2;}
