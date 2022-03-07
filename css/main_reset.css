@@ -110,7 +110,9 @@ input{
 vertical-align:middle;
 }
 
-
+textarea:focus, input:focus{
+    outline: none;
+} 
 
 input[type=text], select {
     width: 100%;
