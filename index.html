@@ -7,9 +7,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script> 
-
-    
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script> 
     <script type="text/javascript" src="js/sidemenu.js"></script>
     <title>이사가게</title>
     <meta name="description" content="이사가게.">
@@ -17,29 +15,15 @@
     <link rel="stylesheet" href="css/main_layout.css">
     <link rel="stylesheet" href="css/main_reset.css">
 </head>
-    <script>
-        //로그인아이콘 리스트 열기
-        $(document).on("click", ".btn-open", function(e) {
-            var target = $(this).attr("href");
-            $(target).addClass("show");
-        });
-
-        // 외부영역 클릭 시 리스트닫기
-        $(document).mouseup(function(e) {
-            var LayerPopup = $(".info");
-            if (LayerPopup.has(e.target).length === 0) {
-                LayerPopup.removeClass("show");
-            }
-        });
-
-    </script>
+   
     
  
 <body>
     <div class="wrapper">
-        <div class="header">
+        <div class="header ">
+           
             <h1 class="logo"><a href="#-"><em class="hide">이사가게</em></a></h1>
-            <div class="gnb">
+            <div class="gnb ">
                 <ul>
                     <li><a href="#-">가게소개</a>
                         <ul>
@@ -227,9 +211,9 @@
                         
                     </li>
                 </ul>
-            </div>
+           
+       </div>
         </div>
-
         <div class="m_header">
             <div class="navi">
                 <h1 class="m_logo"><a href="#-"><em class="hide">이사가게</em></a></h1>
@@ -307,20 +291,16 @@
         </script>
 
         <div class=" visual_box ">
-          
-                <div class="slidebox">
+                <div class="slidebox inner_1920">
                     <div id="slide">
-                        <div class="img1"><div class="key_txt">직접 이사하는<br>사람들이 함께하는<br><span class="font_100">이사가게</span><br><span class="font_28">전국 소상공인이 모여 최저가의 이사비용으로
+                        <div class="img1"><div class="key_txt ">직접 이사하는<br>사람들이 함께하는<br><span class="font_100">이사가게</span><br><span class="font_28">전국 소상공인이 모여 최저가의 이사비용으로
                             맞춤형 이사서비스를 제공합니다.</span></div></div>
                         <div class="img2"><div class="key_txt1"><span class="font_70"><em>이사!</em> <br>지금 만나러 갑니다~</span><br>
                             <button class="freetxtbtn">무료방문견적 서비스 신청하기 </button>
                            </span></div></div>
                         <div class="img3"></div>
                     </div>
-                    
-
                 </div>
-           
         </div>
         
       
@@ -600,34 +580,34 @@
     <script>
         $(function() {
             $('#slide').slick({
-                slide: 'div', //슬라이드 되어야 할 태그 ex) div, li 
-                infinite: true, //무한 반복 옵션	 
-                slidesToShow: 1, // 한 화면에 보여질 컨텐츠 개수
-                slidesToScroll: 1, //스크롤 한번에 움직일 컨텐츠 개수
-                speed: 100, // 다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간(ms)
-                arrows: true, // 옆으로 이동하는 화살표 표시 여부
-                dots: true, // 스크롤바 아래 점으로 페이지네이션 여부
-                autoplay: true, // 자동 스크롤 사용 여부
-                autoplaySpeed: 3000, // 자동 스크롤 시 다음으로 넘어가는데 걸리는 시간 (ms)
-                pauseOnHover: true, // 슬라이드 이동	시 마우스 호버하면 슬라이더 멈추게 설정
-                vertical: false, // 세로 방향 슬라이드 옵션
-                prevArrow: "<button type='button' class='slick-prev'>Previous</button>", // 이전 화살표 모양 설정
-                nextArrow: "<button type='button' class='slick-next'>Next</button>", // 다음 화살표 모양 설정
-                dotsClass: "slick-dots", //아래 나오는 페이지네이션(점) css class 지정
-                draggable: true, //드래그 가능 여부 
+                slide: 'div', 
+                infinite: true, 	 
+                slidesToShow: 1, 
+                slidesToScroll: 1, 
+                speed: 100, 
+                arrows: true,
+                dots: true, 
+                autoplay: true, 
+                autoplaySpeed: 3000, 
+                pauseOnHover: true, 
+                vertical: false, 
+                prevArrow: "<button type='button' class='slick-prev'>Previous</button>", 
+                nextArrow: "<button type='button' class='slick-next'>Next</button>", 
+                dotsClass: "slick-dots", 
+                draggable: true, 
 
-                responsive: [ // 반응형 웹 구현 옵션
+                responsive: [ 
                     {
-                        breakpoint: 1280, //화면 사이즈 1240px
+                        breakpoint: 1280, 
                         settings: {
-                            //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+                            
                             slidesToShow: 1
                         }
                     },
                     {
-                        breakpoint: 768, //화면 사이즈 768px
+                        breakpoint: 768, 
                         settings: {
-                            //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+                           
                             slidesToShow: 1
                         }
                     }
@@ -641,35 +621,35 @@
 <script>
     $(function() {
         $('#slide1').slick({
-            slide: 'div', //슬라이드 되어야 할 태그 ex) div, li 
-            infinite: true, //무한 반복 옵션	 
-            slidesToShow: 3, // 한 화면에 보여질 컨텐츠 개수
-            slidesToScroll: 1, //스크롤 한번에 움직일 컨텐츠 개수
-            speed: 100, // 다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간(ms)
-            arrows: true, // 옆으로 이동하는 화살표 표시 여부
-            dots: true, // 스크롤바 아래 점으로 페이지네이션 여부
-            autoplay: true, // 자동 스크롤 사용 여부
-            autoplaySpeed: 3000, // 자동 스크롤 시 다음으로 넘어가는데 걸리는 시간 (ms)
-            pauseOnHover: true, // 슬라이드 이동	시 마우스 호버하면 슬라이더 멈추게 설정
-            vertical: false, // 세로 방향 슬라이드 옵션
-            prevArrow: "<button type='button' class='slick-prev'>Previous</button>", // 이전 화살표 모양 설정
-            nextArrow: "<button type='button' class='slick-next'>Next</button>", // 다음 화살표 모양 설정
-            dotsClass: "slick-dots", //아래 나오는 페이지네이션(점) css class 지정
-            draggable: true, //드래그 가능 여부 
-            responsive: [ // 반응형 웹 구현 옵션
+            slide: 'div', 
+            infinite: true,  
+            slidesToShow: 3, 
+            slidesToScroll: 1, 
+            speed: 100, 
+            arrows: true, 
+            dots: true, 
+            autoplay: true, 
+            autoplaySpeed: 3000, 
+            pauseOnHover: true, 
+            vertical: false, 
+            prevArrow: "<button type='button' class='slick-prev'>Previous</button>", 
+            nextArrow: "<button type='button' class='slick-next'>Next</button>", 
+            dotsClass: "slick-dots", 
+            draggable: true, 
+            responsive: [ 
                    
                     {
                         
-                        breakpoint: 1000, //화면 사이즈 1240px
+                        breakpoint: 1000, 
                         settings: {
-                            //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+                           
                             slidesToShow: 2
                         }
                     },
                     {
-                        breakpoint: 768, //화면 사이즈 768px
+                        breakpoint: 768, 
                         settings: {
-                            //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
+                            
                             slidesToShow: 1
                         }
                     }
