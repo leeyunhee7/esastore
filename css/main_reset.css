@@ -1,56 +1,6 @@
 @charset "UTF-8";
 
 
-@font-face {
-
-    font-family: 'NotoSansKR';
-    src: url('../font/NotoSansKR-Regular.woff2'),
-    url('../font/NotoSansKR-Regular.woff') format('woff'),
-    url('../font/NotoSansKR-Regular.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-    }
-  
-  @font-face {
-  
-    font-family: 'NotoSansKR';
-    src: url('../font/NotoSansKR-Medium.woff2'),
-    url('../font/NotoSansKR-Medium.woff') format('woff'),
-    url('../font/NotoSansKR-Medium.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
-    }
-  
-    @font-face {
-  
-      font-family: 'NotoSansKR';
-      src: url('../font/NotoSansKR-Bold.woff2'),
-      url('../font/NotoSansKR-Bold.woff') format('woff'),
-      url('../font/NotoSansKR-Bold.otf') format('opentype');
-      font-weight: 700;
-      font-style: normal; 
-    }
-  
-    /* @font-face {
-  
-      font-family: 'montserrat';
-      src: url('../font/montserrat-v23-latin-regular.woff2'),
-      url('../font/montserrat-v23-latin-regular.woff') format('woff'),
-      url('../font/Montserrat-Regular.ttf') format('truetype');
-      font-weight: 500;
-      font-style: normal; 
-    } */
-  
-    @font-face {
-  
-      font-family: 'montserrat';
-      src: url('../font/Montserrat-bold.ttf'),
-      url('../font/montserrat-v23-latin-regular.woff2'),
-      url('../font/Montserrat-bold.ttf') format('truetype');
-      
-      font-style: normal; 
-    }
-    
 
 *{
 -webkit-text-size-adjust:none;
